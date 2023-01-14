@@ -14,16 +14,17 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
+  background-image: url ("https://media.giphy.com/media/F6ZGtDS1o9KG4/giphy.gif")
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: grey;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: brown;
   right: 10px;
 }
 
@@ -88,9 +89,11 @@ body {
 }
 
 #left-score {
-  left: 10%;
+  left: 1%;
+  background-image: blue;
 }
 
 #right-score {
-  right: 10%;
+  right: 1%;
+  background-image: blue;
 }
